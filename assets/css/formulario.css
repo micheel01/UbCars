@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+.container-anuncio{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contatoForm{
+    width: 500px;
+    margin-left: 60%;
+}
+
+.form-check{
+    margin-left: 5px;
+}
+
+#anoVeiculo.form-control{
+    width: 500px;
+    margin-left: -16px;
+    margin-top: -3px;
+}
+
+#marcaVeiculo.form-control{
+    width: 500px;
+    margin-left: -16px;
+    margin-top: -3px;
+}
+
+#estadoVeiculo.form-control{
+    width: 500px;
+    margin-left: -16px;
+    margin-top: -3px;
+}
+
+
+
+body{
+
+    background-image:url(./img.bg/img_background_form_anuncio.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+
+
+#marcaVeiculo{
+    width: 600px;
+    background-color: #c5c1c1;
+
+}
+.form-group{
+    margin-top: -10px;
+}
+
+.campo-radio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+ 
+#anoVeiculo{
+    width: 600px;
+    background-color: #c5c1c1;
+
+}
+#estadoVeiculo{
+    width: 600px;
+    background-color: #c5c1c1;
+    
+}
+
+
+.tituloForm{
+    width: 500px;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #c8cccc;
+}
+
+.botao{
+    font-size: 1.2em;
+    background-color: #aaa7a7;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: rgb(3, 3, 3);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    margin: 0px 0 10px 0px;
+    cursor: pointer;
+    width: 500px;
+}
+
+.botao:hover{
+    background-color: rgb(78, 78, 78);
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}
+
+ 
+ .container {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+ }
+ 
+
+ #notificacao {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+@media (max-width: 768px) {
+}

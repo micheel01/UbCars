@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="fonts_header/icomoon/style.css">
+  <link rel="stylesheet" href="css_header/owl.carousel.min.css">
+  <link rel="stylesheet" href="css_header/bootstrap.min.css">
+  <link rel="stylesheet" href="css_header/style_2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/pag_adm.css">
+    <link rel="stylesheet" href="css_footer/style_footer.css">
+   <link rel="stylesheet" href="css_footer/ionicons.min.css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container_header">
+          <div class="row align-items-center position-relative">
+    
+            <div class="col-lg-4">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                   <li><a href="formulario.html" class="nav-link">Anuncie aqui</a></li>
+                 <li><a href="filtro.html" class="nav-link">Filtrar</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="site-logo">
+                <a href="index.html"><img src="assets/img/logo.jpg" alt="" class="header-image" /></a>
+              </div>
+    
+              <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3 text-black"></span></a></div>
+            </div>
+            <div class="col-lg-4">
+              <nav class="site-navigation text-left mr-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+                  <li><a href="login_entrar.html" class="nav-link">Entrar</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+        
+
+    <div class="opcoes">
+        <div class="tab">
+            <button class="tablinks" onclick="abrirTab(event, 'Estoque')">Estoque</button>
+            <button class="tablinks" onclick="abrirTab(event, 'Vendas')">Vendas</button>
+            <button class="tablinks" onclick="abrirTab(event, 'Clientes')">Clientes</button>
+        </div>
+    </div>
+
+    <div id="Estoque" class="tabcontent">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome do Carro</th>
+                    <th>Ano</th>
+                    <th>KM</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="assets/img/urus/Urus_1.jpg" alt="Carro 1"></td>
+                    <td>Lamborghini Urus</td>
+                    <td>2022</td>
+                    <td>3.000</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="urus.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/porshe/911_1.jpg" alt="Carro 2"></td>
+                    <td>Porshe 911</td>
+                    <td>2023</td>
+                    <td>0</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="porshe.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/rs7/rs7_1.jpg" alt="Carro 3"></td>
+                    <td>Audi Rs7</td>
+                    <td>2021</td>
+                    <td>8.000</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="rs7.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/ram/ram_1.jpg" alt="Carro 4"></td>
+                    <td>Ram</td>
+                    <td>2021</td>
+                    <td>28.200</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="ram.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/s60/s60_1.jpg" alt="Carro 5"></td>
+                    <td>Volvo S60</td>
+                    <td>2021</td>
+                    <td>48.247</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="s60.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/rsq8/rsq8_1.jpg" alt="Carro 6"></td>
+                    <td>Audi RSQ8</td>
+                    <td>2021</td>
+                    <td>13.383</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="rsq8.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/supra/supra_1.jpg" alt="Carro 7"></td>
+                    <td>Toyota Supra</td>
+                    <td>2022</td>
+                    <td>0</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="supra.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/m3/m3_1.jpg" alt="Carro 8"></td>
+                    <td>Bmw M3</td>
+                    <td>2022</td>
+                    <td>7.000</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="m3.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="assets/img/uno/uno_1.jpg" alt="Carro 9"></td>
+                    <td>Uno 93</td>
+                    <td>1993</td>
+                    <td>54.000</td>
+                    <td class="acoes">
+                        <button onclick="deletarItem(this.parentNode.parentNode)" class="delete-button">Delete</button>
+                        <a href="uno.html"><button  class="descricao" >Descrição </button></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <div class="vendas">
+        <div id="Vendas" class="tabcontent">
+            <h1>
+                Nenhuma venda foi registrada  ❌
+            </h1>
+        </div>
+    </div>
+
+        <div id="Clientes" class="tabcontent">
+            <h1>
+                Nao há nenhum cliente cadastrado no momento ❌
+        </div>
+        <footer class="footer-07">
+            <div class="container_footer">
+       <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+             <h2 class="footer-heading"><a href="index.html" class="logo">UbCars.com</a></h2>
+             <p class="menu">
+                 <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="formulario.html">Anuncie Aqui</a>
+                <a href="sobre.html">Contato</a>
+            </p>
+            <ul class="ftco-footer-social p-0">
+                <li class="ftco-animate"><a href="https://twitter.com/i/flow/login" data-toggle="tooltip" data-placement="top" title="Twitter"><span
+                    class="ion-logo-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="https://www.facebook.com/" data-toggle="tooltip" data-placement="top" title="Facebook"><span
+                        class="ion-logo-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/" data-toggle="tooltip" data-placement="top" title="Instagram"><span
+                         class="ion-logo-instagram"></span></a></li>
+             </ul>
+          </div>
+        </div>
+        
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+             <p class="copyright">
+                 UniBrasil Cars. Todos os direitos reservados
+             </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <ion-icon name="logo-twitter"></ion-icon>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js_header/jquery-3.3.1.min.js"></script>
+  <script src="js_header/popper.min.js"></script>
+  <script src="js_header/jquery-3.3.1.min.js"></script>
+  <script src="js_header/jquery.sticky.js"></script>
+  <script src="js_header/main.js"></script>
+<script src="js/adm.js"></script>
+
+</body>
+</html>

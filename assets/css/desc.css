@@ -1,0 +1,76 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.table{
+  width: 100%;
+}
+
+.css-table{
+  background-color: rgba(166, 159, 159, 0.624);
+}
+
+.ficha-container{
+  font-size: 1.2rem;
+  margin-top: 110px;
+}
+
+.descricao{
+  margin-top: 90px;
+  color: rgb(36, 32, 32);
+}
+
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  color: rgb(36, 32, 32);
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    border-radius: 5px; 
+    padding: 10px; 
+    border: 2px solid #504a4a; 
+    margin-bottom: 10px; 
+    color: #504a4a;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+  border-radius: 5px; 
+  padding: 10px; 
+  margin-top: 10px;
+  border: 2px solid #504a4a; 
+  margin-bottom: 10px; 
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+}
+
+.contatoForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+
+#notificacao {
+  display: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}

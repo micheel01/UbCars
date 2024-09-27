@@ -1,0 +1,72 @@
+.opcoes{
+    word-spacing: 100px;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+}
+
+.tab {
+   overflow: hidden;
+   background-color:#504a4a;
+}
+
+/* Estilo dos botões de guia */
+.tab button {
+   background-color: inherit;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 0.3s;
+   font-size: 18px;
+}
+
+/* Estilo dos botões de guia ativos */
+.tab button.active {
+   background-color: #ddd;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 50px;
+}
+
+th, td {
+   border: 1px solid  #504a4a;
+   padding: 8px;
+   text-align: left;
+}
+
+th {
+   background-color: #504a4a;
+}
+
+img {
+   max-width: 100px;
+}
+
+.delete-button, .descricao {
+   background-color: #504a4a;
+   color: rgb(36, 32, 32);
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+
+.delete-button:hover, .descricao:hover {
+   background-color:  #908c8c;
+}
+
+.tabcontent{
+   margin-bottom: 300px;
+}
+
+
+
+

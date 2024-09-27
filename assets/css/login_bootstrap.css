@@ -1,0 +1,107 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   background-image:url(./img.bg/img_background_login.jpg);
+   background-size: 100%; 
+   background-repeat: no-repeat;
+   
+}
+ 
+ button:hover {
+    cursor: pointer;
+ }
+
+ .header-image {
+   width: 100px;
+}
+ 
+ .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+ }
+ 
+ .bg-black {
+    margin: 0;
+    background-color: black;
+    color: white;
+ }
+ .container-login {
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#e4dcdc,#242323);
+    border: 7px solid black;
+    padding : 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 500px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imgLogin{
+   width: 120px;
+   margin-top: -20px;
+}
+
+.checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox-label input {
+    margin-right: 10px;
+    width: 30px;
+}
+
+#email{
+   padding: 0.2em;
+   border: 2px solid #1d1c1c;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px black;
+   display: inline-block;
+   margin-bottom: 2px;
+
+}
+
+.campo input [type="email"],[type="password"]{
+   padding: 0.2em;
+   border: 2px solid #1d1c1c;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px black;
+   display: inline-block;
+   margin-bottom: 5px;
+
+}
+
+.botao:hover{
+   background-color: rgb(78, 78, 78);
+   box-shadow: inset 2px 2px 2px black;
+   text-shadow: none;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 3em;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+
+.cadastrar-se{
+
+    margin-left: 30%;
+    font-size: 26px;
+    text-decoration: none;
+   color: #ffffff;
+}

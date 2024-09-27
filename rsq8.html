@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/carousel.css" />
+  <link rel="stylesheet" href="assets/css/desc.css">
+  <title>Descrição RSQ8</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="header-item">
+        <a class="header-link" href="index.html">
+          <img src="assets/img/logo.jpg" alt="" class="header-image" />
+        </a>
+      </div>
+    </div>
+    <div class="container header-container">
+      <div class="header-item">
+        <a class="header-link" href="sobre.html">Sobre Nós</a>
+      </div>
+      <div class="header-item">
+        <a class="header-link" href="cadastro.html">Anuncie Aqui</a>
+      </div>
+      <div class="header-item">
+        <a class="header-link" href="login_entrar.html">Entrar</a>
+      </div>
+      <div class="header-item">
+        <a class="header-link" href="filtro.html">Filtrar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- setas -->
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+          <i class="arrow-icon fas fa-arrow-left left-arrow" onclick="mudarPagina(-1)"></i>
+          <i class="arrow-icon fas fa-arrow-right right-arrow" onclick="mudarPagina(1)"></i>
+        </div>
+    </div>
+</div>
+
+  <div class="container">
+    <div class="
+      carousel">
+      <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+        <img src="assets/img/rsq8/rsq8_1.jpg" />
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="assets/img/rsq8/rsq8_2.jpg" />
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="assets/img/rsq8/rsq8_3.jpg" />
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="assets/img/rsq8/rsq8_4.jpg" />
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="assets/img/rsq8/rsq8_5.jpg" />
+      </div>
+
+      <div class="carousel__actions">
+        <button data-js="carousel__button--prev" aria-label="Slide anterior">
+          ❮
+          <button data-js="carousel__button--next" aria-label="Próximo slide">
+            ❯
+          </button>
+      </div>
+    </div>
+
+    <Div class="ficha-container">
+      <h3>
+        Ficha Tecnica
+      </h3>
+
+      <table class="table">
+        <tr class="css-table">
+          <td>COR</td>
+          <td> Preto </td>
+        </tr>
+        <tr >
+          <td>COR INTERNA:</td>
+          <td> Caramelo </td>
+        </tr>
+        <tr class="css-table">
+          <td>KM</td>
+          <td> 13.383</td>
+        </tr>
+        <tr >
+          <td>COMBUSTÍVEL:</td>
+          <td> Gasolina </td>
+        </tr>
+        <tr class="css-table">
+          <td>CÂMBIO:</td>
+          <td> Automática</td>
+        </tr>
+        <tr>
+          <td>MOTOR:</td>
+          <td> 4.0 V8 TWINTURBO</td>
+        </tr>
+        <tr class="css-table">
+          <td>POTÊNCIA:</td>
+          <td> 600 cv</td>
+        </tr>
+        <tr >
+          <td>VALOR(R$):</td>
+          <td> 959.990 </td>
+        </tr>
+      </table>
+
+      <div class="descricao">
+        <h3>
+          Informações Gerais
+        </h3>
+        <h4>
+          Veículo com 600 cv de potência, Tração integral, Teto Solar Panorâmico,
+          <br>
+          suspensão pneumática, Piloto automático adaptativo, alerta de ponto cego, alerta de mudança de faixa,
+          <br>
+          assistente de visão noturna,  4 cameras, Som Bang & Olufsen. Outros Opcionais: Direção Elétrica
+          <br>
+          Controle de estabilidade, Distribuição eletrônica de frenagem, Kit Multimídia, MP3 Player.
+        </h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="form">
+    <h2>
+      Achou nosso veículo interessante?
+      <br>
+      Envie seus dados que entraremos em contato.
+    </h2>
+
+    <form class="contatoForm" id="contatoForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone">
+
+      <input type="submit" value="Enviar Dados">
+    </form>
+
+    <div id="notificacao">Informações para contato enviadas com sucesso.</div>
+  </div>
+
+  <footer>
+    <div class="foot">
+      <img class="foot-image" src="assets/img/logo.jpg" />
+      <p>2023 UnibrasilCars © - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+      var paginas = ['s60.html', 'supra.html']; // Adicione os caminhos das suas páginas aqui
+      var paginaAtual = 0;
+
+      function mudarPagina(direcao) {
+          paginaAtual += direcao;
+          if (paginaAtual < 0) {
+              paginaAtual = paginas.length - 1;
+          } else if (paginaAtual >= paginas.length) {
+              paginaAtual = 0;
+          }
+          window.location.href = paginas[paginaAtual];
+      }
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/form.js"></script>
+
+</body>

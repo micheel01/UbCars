@@ -1,0 +1,131 @@
+
+.container-cadastro{
+    width: 200px;
+    display: flex;
+    margin-left: 70%;
+    font-size: 1.2em;
+    color: white;
+}
+
+h2{
+    margin-bottom: 10px;
+
+}
+.botao{
+    width: 200px;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(3, 3, 3);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    margin: 5px 0 45px 0px;
+    cursor: pointer;
+}
+
+.campo{
+    margin-bottom: 7%;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #c8cccc;
+}
+
+
+.campo select option{
+        padding-right: 1em;
+}
+
+body{
+
+    background-image:url(./img.bg/img_backgrond_cadastro.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+label{
+    margin: 2px 0;
+}
+
+.header {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 10vh;
+ }
+ 
+ .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+ }
+ 
+ .titulo {
+    font-size: 2em;
+    text-align: center;
+ }
+ 
+ .header-image {
+    width: 100px;
+ }
+
+ .bg-black {
+    margin: 0;
+    background-color: black;
+    color: white;
+ }
+
+ #notificacao {
+   display: none;
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+}
+ 
+ #tituloAnuncio {
+       text-align: center;
+ 
+ }
+ 
+ #tituloDadosVeiculo {
+       text-align: center;
+       color: white;
+ 
+ }
+ 
+ .formVeiculo{
+    width: 30%;
+    margin: auto 0px 30px 20px;
+ 
+ }
+ 
+ fieldset {
+    border: 2px black solid;
+    border-radius: 10px;
+ }
+
+ .fieldsetCadastro{
+    border: 0;
+ }
+
+ @media (max-width: 768px) {
+}
